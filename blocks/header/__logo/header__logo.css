@@ -1,7 +1,10 @@
 .header__logo {
+  background-image: url("../../../images/vector.svg");
+  background-repeat: no-repeat;
   align-self: flex-start;
-  max-width: 142px;
-  max-height: 33px;
+  width: 142px;
+  height: 33px;
+  padding-bottom: 41px;
 }
 
 .header__logo:hover {
@@ -10,8 +13,8 @@
 
 @media screen and (max-width: 685px) {
   .header__logo {
-    max-width: 103px;
-    max-height: 24px;
+    background-size: 103px 24px;
     margin: 0 0 0 27px;
+    padding-bottom: 22px;
   }
 }

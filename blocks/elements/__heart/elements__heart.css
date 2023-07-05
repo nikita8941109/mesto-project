@@ -1,10 +1,14 @@
 .elements__heart {
+  background-image: url("../../../images/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 22px;
   margin-left: auto;
   cursor: pointer;
 }
 
 .elements__heart:active {
   background-image: url("../../../images/heart_active.svg");
-  background-repeat: no-repeat;
-  background-position: center 5px;
 }

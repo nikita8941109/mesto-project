@@ -1,6 +1,6 @@
 .elements__group {
-    display: flex;
-    flex-direction: row;
-    max-width: 238px;
-    margin: 23px auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 238px;
+  margin: 23px auto;
 }

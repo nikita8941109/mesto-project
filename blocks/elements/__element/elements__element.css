@@ -1,9 +1,8 @@
 .elements__element {
-    max-width: 282px;
-    height: 361px;
-    border-radius: 10px;
-    list-style: none;
-    padding: 0;
-    background-color: white;
-    color: #000;
+  max-width: 282px;
+  border-radius: 10px;
+  list-style: none;
+  padding: 0;
+  background-color: white;
+  color: #000;
 }

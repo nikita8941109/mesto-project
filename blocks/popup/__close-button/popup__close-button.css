@@ -1,0 +1,14 @@
+.popup__close-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 32px;
+  top: 154px;
+  right: 414px;
+  position: absolute;
+}
+@media screen and (max-width: 685px) {
+  .popup__close-button {
+    top: 85px;
+    left: 274px;
+  }
+}

@@ -1,13 +1,14 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    max-width: 880px;
-    margin: 44px auto 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 880px;
+  margin: 44px auto 0;
+  border-bottom: 1px solid rgba(84, 84, 84, 1);
 }
 
 @media screen and (max-width: 685px) {
-    .header {
-      max-width: 100%;
-      margin: 28px auto 34px;
-    }
+  .header {
+    max-width: 100%;
+    margin: 28px auto 34px;
+  }
 }

@@ -4,12 +4,15 @@
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 22px;
+  margin-bottom: 60px;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 685px) {
   .footer__title {
     font-size: 14px;
     line-height: 17px;
+    margin-bottom: 36px;
   }
 }

@@ -6,7 +6,9 @@
   font-weight: 400;
   line-height: 17px;
   border: none;
-  border-bottom: 1px #ccc solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+  margin-bottom: 27px;
+  margin-left: 2px;
 }
 
 .popup__name:focus {
@@ -17,6 +19,5 @@
 @media screen and (max-width: 685px) {
   .popup__name {
     width: 238px;
-    height: 27px;
   }
 }
