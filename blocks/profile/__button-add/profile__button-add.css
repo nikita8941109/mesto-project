@@ -1,0 +1,17 @@
+.profile__button-add {
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000;
+  border: 1px white solid;
+  width: 150px;
+  height: 50px;
+  justify-self: end;
+  align-self: center;
+}
+@media screen and (max-width: 685px) {
+  .profile__button-add {
+    width: 100%;
+    margin-top: 8px;
+  }
+}

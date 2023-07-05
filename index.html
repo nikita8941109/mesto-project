@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Никита Юшков">
+  <title>Mesto Russia</title> 
+  
+  <link rel="stylesheet" href="pages/index.css"> 
+</head>
+<body class="page">
+
+
+    <!-- Шапка сайта, блок header -->
+
+    <header class="header" aria-label="Шапка сайта, с логотипом компании">
+        <a href="#"><img src="./images/vector.svg" alt="белый логотип Mesto" class="header__logo"></a>
+        <hr class="header__line">
+    </header>
+
+
+    <!-- Основное содержимое страницы, блок content -->
+    <main class="content">
+
+
+    <!-- Секция, блок profile -->
+
+    <section class="profile" aria-label="Личная информация о пользователе">
+        <img src="./images/Avatar.png" alt="Круглый аватар пользователя" class="profile__avatar">
+        <aside class="profile__info">
+           <div class="profile__name"><h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__editor-button button" aria-label="Редактировать личную информацию">
+            </button>
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+        </aside>
+        <button class="profile__button-add button" aria-label="Создать новый пост"><img src="./images/plus.svg" alt="Плюс" class="profile__button_plus">
+        </button>
+    </section>
+
+
+
+    <!-- Popup   -->
+    
+    <div class="popup popup_opened " aria-label="Всплывающий попап, личная информация о пользователе">
+    <div class="popup__container">
+    <button class="popup__close_button button" aria-label="Закрыть попап"><img src="./images/close_icon.svg" alt="Закрыть" class="popup__close_icon"></button> 
+        <form class="popup__profile">
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <div class="popup__main-container">
+            <fieldset class="popup__text-container popup__name-container">
+                <input class="popup__name popup__name-user" name="name_user" value="Жак-Ив Кусто" placeholder="Ваше имя" required>
+            </input>
+            </fieldset>
+            <fieldset class="popup__text-container popup__description-container">
+                <input class="popup__name popup__description" name="description_user" value="Исследователь океана" placeholder="Описание" required>
+            </input>
+            </fieldset>
+            </div>
+            <fieldset class="popup__text-container popup__submit-container">
+                <input type="submit" class="popup__submit" value="Сохранить"></input>
+            </fieldset>
+        </form> 
+    </div>
+</div>
+ 
+    <!-- Секция, блок Elements -->
+ 
+        <ul class="elements" aria-label="Фотографии загруженные пользователем">
+            <li class="elements__element">
+               <img src="./images/karachaevsk.png" alt="Старинный храм на фоне горного горизонта" class="elements__image">
+               <div class="elements__group">
+               <h2 class="elements__title">Карачаевск</h2> 
+               <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+            </div>
+            </li>
+
+            <li class="elements__element">
+              <img src="./images/elbrus.png" alt="Гора Эльбрус на фоне заката" class="elements__image">
+              <div class="elements__group">
+              <h2 class="elements__title">Гора Эльбрус</h2> 
+              <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+           </div>
+           </li>
+
+           <li class="elements__element">
+            <img src="./images/dombai.png" alt="Необычные горы на фоне лесистых массивов" class="elements__image">
+            <div class="elements__group">
+            <h2 class="elements__title">Домбай</h2> 
+            <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+         </div>
+         </li>
+
+         <li class="elements__element">
+          <img src="./images/elbrus.png" alt="Гора Эльбрус на фоне заката" class="elements__image">
+          <div class="elements__group">
+          <h2 class="elements__title">Гора Эльбрус</h2> 
+          <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+       </div>
+       </li>
+
+       <li class="elements__element">
+        <img src="./images/dombai.png" alt="Необычные горы на фоне лесистых массивов" class="elements__image">
+        <div class="elements__group">
+        <h2 class="elements__title">Домбай</h2> 
+        <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+     </div>
+     </li>
+
+     <li class="elements__element">
+      <img src="./images/karachaevsk.png" alt="Старинный храм на фоне горного горизонта" class="elements__image">
+      <div class="elements__group">
+      <h2 class="elements__title">Карачаево-Черкесия</h2> 
+      <img src="./images/heart.svg" alt="Сердце" class="button elements__heart">
+   </div>
+   </li>
+        </ul>
+
+    </main>   <!--Окончание основного содержимого страницы, блока content-->
+ 
+
+     <!-- Подвал сайта, Footer -->
+
+     <footer class="footer">
+        <p class="footer__title">&copy; 2023 Mesto Russia</p>
+    </footer>
+ 
+    
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+.elements__title {
+    margin-top: 0;
+    font-family: "Inter", "Arial", sans-serif;
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+}

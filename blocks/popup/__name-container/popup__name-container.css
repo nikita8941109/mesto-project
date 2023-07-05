@@ -1,0 +1,9 @@
+.popup__name-container {
+  padding-bottom: 27px;
+  padding-top: 42px;
+}
+@media screen and (max-width: 685px) {
+  .popup__name-container {
+    padding-top: 66px;
+  }
+}

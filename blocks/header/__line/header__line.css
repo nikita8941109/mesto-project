@@ -1,0 +1,11 @@
+.header__line {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 37px;
+  color: rgba(84, 84, 84);
+}
+@media screen and (max-width: 685px) {
+  .header__line {
+    margin-top: 27px;
+  }
+}
