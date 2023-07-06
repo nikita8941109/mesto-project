@@ -9,6 +9,12 @@
   cursor: pointer;
 }
 
+.elements__heart:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
 .elements__heart:active {
   background-image: url("../../../images/heart_active.svg");
 }

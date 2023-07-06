@@ -2,7 +2,7 @@
   background-image: url("../../../images/pencil.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0); 
   border: 1px white solid;
   width: 24px;
   height: 24px;
