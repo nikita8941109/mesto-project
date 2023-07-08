@@ -9,7 +9,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .footer__title {
     font-size: 14px;
     line-height: 17px;

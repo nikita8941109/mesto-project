@@ -2,13 +2,13 @@
   background-color: rgba(0, 0, 0, 0);
   border: none;
   height: 32px;
-  top: 135px;
-  right: 414px;
+  top: -41px;
+  right: -41px;
   position: absolute;
 }
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .popup__close-button {
-    top: 85px;
-    left: 274px;
+    top: -31px;
+    left: 257px;    
   }
 }

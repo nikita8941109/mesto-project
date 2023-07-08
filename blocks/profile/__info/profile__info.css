@@ -1,9 +1,7 @@
 .profile__info {
   display: grid;
-  margin-top: 4%;
-  max-width: 40%;
 }
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .profile__info {
     margin: 14px auto;
     max-width: 67%;

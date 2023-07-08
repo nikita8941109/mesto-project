@@ -19,7 +19,7 @@ background: rgba(0,0,0, .8);
 transition: background 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .popup__submit {
     width: 238px;
     height: 46px;
