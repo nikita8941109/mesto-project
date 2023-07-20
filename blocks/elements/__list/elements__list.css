@@ -9,7 +9,7 @@
   padding-left: 0;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .elements__list {
     grid-template-columns: 1fr;
     margin: 36px auto 0;

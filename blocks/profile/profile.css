@@ -6,7 +6,11 @@
   gap: 30px; 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 710px) {
+=======
+@media screen and (max-width: 715px) {
+>>>>>>> a5b93af99eb93f84c666f1f7a71a73686585335c
   .profile {
     justify-items: center; 
     grid-template-columns: 1fr;

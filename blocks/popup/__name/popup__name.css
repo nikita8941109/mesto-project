@@ -16,7 +16,7 @@
   outline: none;
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .popup__name {
     width: 238px;
   }

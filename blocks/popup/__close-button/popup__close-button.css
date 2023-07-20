@@ -6,9 +6,14 @@
   right: -41px;
   position: absolute;
 }
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 715px) {
   .popup__close-button {
+<<<<<<< HEAD
     top: -37px;
     left: 258px;
+=======
+    top: -31px;
+    left: 257px;    
+>>>>>>> a5b93af99eb93f84c666f1f7a71a73686585335c
   }
 }
